@@ -10,7 +10,7 @@ app.set('views', __dirname + '/views');
 app.get('/', (req, res) => {
     res.render('index');
 });
-
+//this is git trials
 app.get('/about', (req, res) => {
     res.sendFile(path.resolve(__dirname, 'pages/about.html'));
 });
