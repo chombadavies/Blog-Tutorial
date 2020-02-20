@@ -1,0 +1,26 @@
+{
+  "name": "blog-tutorial",
+  "version": "1.0.0",
+  "description": "create a blog using the Node.Js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "test"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "Muriuki D",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-edge": "^2.0.1",
+    "nodemon": "^2.0.2",
+    "startbootstrap-clean-blog": "^5.0.8",
+    "touch-for-windows": "^1.0.0"
+  }
+}
